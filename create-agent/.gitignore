@@ -1,0 +1,19 @@
+# Go binary and executable files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test and benchmark files
+*.test
+*.out
+_bench
+
+# environment variables
+.env
+
+# Go build and dependency directories
+/bin/
+/pkg/
+/vendor/
